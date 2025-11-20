@@ -17,7 +17,7 @@ Je ještě otázka, jak s výstupním napětím. Pro 20Hz - 20kHz je potřeba p�
 
 4 kanály V/Oct mohou jít přes jeden čtyřkanálový převodník AD5685R, druhý převodník by potom byl kombinovaný pro pitch bend a CV. OPA2277 a OPA1612 jsou oba dvoukanálové, takže by je teoreticky šlo použít po třech pro celkem 6 analogových kanálů (nejsem si jistý, jestli mají oba kanály dostatečně dobrou přesnost pro účely V/Oct signálu).
 
-Gate a Trigger signály by mohly jít z GPIO a do
+Gate a Trigger signály by mohly jít z GPIO a do MOSFETu 2N7002. MOSFETY by měly umožnit odebírat růyné namětí v závislosti na tom, jaké napětí je konkrétně potřeba na trigger/gate inputu na jiném modulu (většinou 5V/10V/12V).
 
 
 
