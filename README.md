@@ -15,6 +15,8 @@ Switchem se dají přepínat režimy:
 1. 4 hlasy polyfonie a žádný výstup CV z MIDI CC
 2. Monofonie a 3 výstupy CV z MIDI CC
 
+Režimů bude nakonec možná víc, ale pak už by se všechno mělo řešit v softwaru. Akorát by se pak použil vícepólový přepínač.
+
 MIDI clock běží na 24ppqn, takže v STM32 bude potřeba vydělit clock rate (na čtvrťovou nebo osminovou notu, podle toho, jak bude potřeba).
 
 Z MCU modelů nejvhodněji vypadá STM32F405RG + 2 externí 12-bitové, dvoukanálové převodníky (MCP4922).
