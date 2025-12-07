@@ -27,6 +27,9 @@ Jestli bude na výstupu převodníku 0,33V (nebo 0,5V), tak se dá potom použí
 Gate signály by mohly jít z GPIO a do MOSFETu 2N7002. MOSFETY by měly umožnit odebírat růyné namětí v závislosti na tom, jaké napětí je konkrétně potřeba na trigger/gate inputu na jiném modulu (většinou 5V/10V/12V).
 
 
+<img width="1608" height="978" alt="obrazek" src="https://github.com/user-attachments/assets/71dc8f86-c25c-473c-9253-1aae2059694c" />
+
+<img width="958" height="1190" alt="obrazek" src="https://github.com/user-attachments/assets/5a416ce3-0d6d-4ec1-89f7-a6f2da646911" />
 
 
 
