@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Loga VUT")(type "KiCad")(uri "${KIPRJMOD}/Loga VUT.pretty")(options "")(descr ""))
+)
